@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.UHI{
+    font-size: 2em;
+    color: aquamarine;
+    user-select: none;
+}
